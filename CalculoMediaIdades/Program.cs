@@ -5,7 +5,6 @@
 //mostrar a mensagem "IMPOSSIVEL CALCULAR". 
 
 using System.Globalization;
-using System.Runtime.Serialization;
 
 namespace CalculoMediaIdades
 {
@@ -30,7 +29,7 @@ namespace CalculoMediaIdades
             }
             else
             {
-                while (idade > 0)
+                while (idade >= 0)
                 {
                     soma = soma + idade;
                     cont = cont + 1;
@@ -44,4 +43,4 @@ namespace CalculoMediaIdades
             }
         }
     }
-}   
+}
